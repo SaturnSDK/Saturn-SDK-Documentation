@@ -10,7 +10,6 @@ wget -c -O "SCU Final Specifications - Precautions.pdf" http://koti.kapsi.fi/~an
 wget -c -O "SMPC User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/ST-169-R1-072694.pdf
 wget -c -O "Saturn SCSP User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/ST-077-R2-052594.pdf
 wget -c -O "Sega Saturn Dual CPU User's Guide.pdf" http://koti.kapsi.fi/~antime/sega/files/ST-202-R1-120994.pdf
-
 cd ../
 
 mkdir -p "Saturn Programming Manual Vol. 2"
@@ -24,3 +23,15 @@ mkdir -p "Saturn Graphic Library (SGL)"
 cd "Saturn Graphic Library (SGL)"
 wget -c -O "SGL Developer's Manual Tutorial.pdf" http://koti.kapsi.fi/~antime/sega/files/ST-237-R1-051795.pdf
 wget -c -O "SGL Developer's Manual Reference.pdf" http://koti.kapsi.fi/~antime/sega/files/ST-238-R1-051795.pdf
+cd ../
+
+mkdir -p "Hitachi Semiconductor"
+cd "Hitachi Semiconductor"
+wget -c -O "SH-1 SH-2 Programming Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/h12p0.pdf
+wget -c -O "SH7604 Hardware Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/sh7604.pdf
+wget -c -O "SuperH RISC Engine Assembler User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/e702090_superh.pdf
+wget -c -O "SH Series C Compiler User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/shccomp.pdf
+wget -c -O "H Series Librarian User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/hserlib.pdf
+wget -c -O "SuperH RISC Engine Simulator Debugger User's Manual.pdf" http://koti.kapsi.fi/~antime/sega/files/e702186_shsimulator.pdf
+wget -c -O "SH Series Simulator Debugger User's Manual [SPARC].pdf" http://koti.kapsi.fi/~antime/sega/files/shsimdbg.pdf
+cd ../
